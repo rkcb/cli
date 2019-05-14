@@ -19,6 +19,8 @@
       .settings(
         name := "Hello"
       )
+   - save set given in a sbt session => save session
+   -
       
 
 
