@@ -10,4 +10,5 @@
   - dirs -v => show dirs stack
   - dirs -c => clear the stack 
     
-
+ # Loops
+  - two loops: for x in $(ls); do for y in $(ls); do echo "$x $y"; done; done;
