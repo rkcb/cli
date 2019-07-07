@@ -9,3 +9,9 @@
 # Repository 
 
 - show remote url => git config --get remote.origin.url
+
+# Misc
+
+Copy file(s) from another branch:
+   git checkout <branch> -- <file(s)>
+
