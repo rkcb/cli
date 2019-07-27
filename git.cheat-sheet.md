@@ -15,3 +15,5 @@
 Copy file(s) from another branch:
    git checkout <branch> -- <file(s)>
 
+Compare branches by commits
+   git log <branch> --not master --stat
