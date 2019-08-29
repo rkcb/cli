@@ -11,4 +11,25 @@
   - dirs -c => clear the stack 
     
  # Loops
-  - two loops: for x in $(ls); do for y in $(ls); do echo "$x $y"; done; done;
+ 
+  - until test-commands; do consequent-commands; done
+  - while test-commands; do consequent-commands; done
+  - for name [ [in [words ...] ] ; ] do commands; done
+  - for (( expr1 ; expr2 ; expr3 )) ; do commands ; done
+
+ # Conditional Constructs
+
+   - if test-commands; then
+    	consequent-commands;
+    	[elif more-test-commands; then
+    	more-consequents;]
+    	[else alternate-consequents;]
+     fi
+   
+   - case word in
+    [ [(] pattern [| pattern]...) command-list ;;]...
+    esac
+   - *) is used as default case 
+
+   
+
