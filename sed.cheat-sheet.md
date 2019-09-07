@@ -1,6 +1,17 @@
 
 # Basic commands
 
+  - # comment
+  - q # exit code e.g.  seq 3 | sed 2q
+  - d # Delete the pattern space; immediately start next cycle.
+      # example  seq 3 | sed 2d
+  - p # print the pattern space
+  - n # If auto-print is not disabled, print the pattern space, then, regardless, replace
+      # the pattern space with the next line of input. If there is no more input then
+      # sed exits without processing any more commands.
+  
+
+
   - substitute only one command => sed 's/esa/escobar/'
   -
  
