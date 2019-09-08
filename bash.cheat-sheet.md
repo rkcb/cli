@@ -29,7 +29,21 @@
    - case word in
     [ [(] pattern [| pattern]...) command-list ;;]...
     esac
-   - *) is used as default case 
-
+   1)  *) is used as default case 
+   2) ;; ends the case matching
+   3) ;& continues with possible other cases
    
+   - select name [in words ...]; do commands; done
+   - 
+
+ 
+# Array
+
+  - declare -a ar 		# create an array 
+  - ar[3]=escobar    		# create an array ands sets a value
+  - 				# indexed arrays start with 0
+  - ${#arr[*]} 			# return the length of the array
+  - ${ar[-1]} 			# value of the last ar, -2 would be second last item
+  - echo "$ar[*]" 		# print the array with the $IFS
+ 
 
