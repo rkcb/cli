@@ -7,3 +7,7 @@
 
 	
 
+  * open file
+   	val in = new java.util.Scanner(new java.io.File("myfile.txt"))
+	while (in.hasNext()) process in.next()
+	

@@ -46,4 +46,11 @@
   - ${ar[-1]} 			# value of the last ar, -2 would be second last item
   - echo "$ar[*]" 		# print the array with the $IFS
  
+ - {1..10}	# numbers between 1 and 10 inclusive
+ - {1..10..2} 	# numbers between 1-10 with step 2
 
+# Arithmetics
+
+- `expr 1 + 1` 		# evaluate the sum 
+- `expr 2 \* 4`		# evaluate the product 
+    
