@@ -17,7 +17,7 @@
   - for name [ [in [words ...] ] ; ] do commands; done
   - for (( expr1 ; expr2 ; expr3 )) ; do commands ; done
 
- = Conditional Constructs
+== Conditional Constructs
 
    - if test-commands; then
     	consequent-commands;
@@ -37,7 +37,7 @@
    - 
 
  
-= Array
+== Array
 
   - declare -a ar 		= create an array 
   - ar[3]=escobar    		= create an array ands sets a value
@@ -49,7 +49,7 @@
  - {1..10}	= numbers between 1 and 10 inclusive
  - {1..10..2} 	= numbers between 1-10 with step 2
 
-= Arithmetics
+== Arithmetics
 
 - `expr 1 + 1` 		= evaluate the sum 
 - `expr 2 \* 4`		= evaluate the product 

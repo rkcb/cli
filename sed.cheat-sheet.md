@@ -9,7 +9,7 @@
   - n # If auto-print is not disabled, print the pattern space, then, regardless, replace
       # the pattern space with the next line of input. If there is no more input then
       # sed exits without processing any more commands.
-  
+
 
 
   - substitute only one command => sed 's/esa/escobar/'
@@ -26,6 +26,7 @@
     1. replace  x with y in the line 3 => sed '3s/x/y'
     2. address range; do a replace in the lines 1-3 x's with y's => sed '1,3s/x/y/g'
     3. replace x's with y's if line does contain w => sed 'w!s/x/y/g'
+    4. insert note to the first line => sed -i '1 inote' myfile.txt
 
 # POSIX Character classes
 	
