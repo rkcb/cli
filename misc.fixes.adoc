@@ -1,0 +1,4 @@
+
+== Locales
+
+- rm ~/.config/plasma-localerc => fixed man page error related to locales
