@@ -13,3 +13,14 @@ sudo -u postgres psql postgres
 
 
 
+## Misc
+
+- login to database:
+        * psql -d mydb -U myuser
+
+- create a new user:
+        * su - postgres
+        * createuser --interactive --pwprompt
+
+- create a new database:
+        * createdb -O ownerOfDatabase mydatabaseName​
