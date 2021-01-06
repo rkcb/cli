@@ -1,3 +1,0 @@
- - To check your connection status, type 'expressvpn status'.
-   - If your VPN connection unexpectedly drops, internet traffic will be blocked to protect your privacy.
-   - To disable Network Lock, disconnect ExpressVPN then type 'expressvpn preferences set network_lock off'.

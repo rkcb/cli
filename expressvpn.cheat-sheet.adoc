@@ -1,0 +1,1 @@
+Install the Express Vpn xz file: sudo pacman -U file.tar.xz

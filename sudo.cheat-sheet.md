@@ -12,3 +12,4 @@ usermod -aG sudo username
 sudo -ll 
 
 sudo -lU 
+Add <username> to a group: sudo usermod -aG sudo esa
