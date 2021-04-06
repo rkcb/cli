@@ -1,1 +1,2 @@
 Install the Express Vpn xz file: sudo pacman -U file.tar.xz
+Autoconnect Express VPN: expressvpn autoconnect true
