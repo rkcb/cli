@@ -1,1 +1,4 @@
-Print <crlf> ^M: Ctrl + V Ctrl + M
+
+== Tools
+
+- make a bootable USB from an Live Linux ISO image: cp <image file> /dev/sdb
