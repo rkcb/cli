@@ -1,0 +1,5 @@
+
+== Minimax
+
+Maximin value is the highest value that the player can get without knowing opponent's moves. 
+

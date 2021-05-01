@@ -20,3 +20,4 @@ Compare branches by commits
 
 To stop tracking a file that is currently tracked, use 
 	git rm --cached.
+git config --global init.defaultBranch <name>
