@@ -1,0 +1,4 @@
+[[ -r $NVM_DIR/bash_completion ]] && \. $NVM_DIR/bash_completion
+nvm project page: https://github.com/nvm-sh/nvm
+nvm install-latest-npm
+nvm install lts/* --reinstall-packages-from=current
