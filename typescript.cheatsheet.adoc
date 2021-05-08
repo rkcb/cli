@@ -1,0 +1,44 @@
+
+== Typescript
+
+=== Reflect
+
+Verify that the package is available.
+
+Define a property decorator
+
+---
+import "reflect-metadata";
+
+const enum MicroService {
+    NAME = "microserviceName/"
+}
+
+function Service(prefix: string): PropertyDecorator {
+    return (target: any, key): void => {
+        Reflect.defineProperty(target, key, {
+            get(): any {
+                return "test";
+            },
+            set(v: any) {
+                target[key] = v;
+            }
+        });
+    };
+}
+
+export class MyClass {
+    @Service(MicroService.NAME)
+    public foo: string = "hello";
+
+    public exec(): string {
+        return this.foo;
+    }
+}
+
+const c = new MyClass();
+
+console.log(c.foo); // - prints: microserviceName/hello
+
+
+---
