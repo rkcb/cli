@@ -1,0 +1,1 @@
+The file tsconfig.spec.ts contains "compilerOptions"."types" for Typescript types
