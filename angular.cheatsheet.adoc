@@ -1,2 +1,3 @@
 The file tsconfig.spec.ts contains "compilerOptions"."types" for Typescript types
 Add a component to a module and export the component: ng g c game-table/game-table --module game-table --export true
+Create a new module, component and route to it: ng generate module customers --route customers --module app.module
